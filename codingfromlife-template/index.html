@@ -91,7 +91,8 @@ background: -webkit-linear-gradient(left, rgba(92,5,26,1) 0%, rgba(143,2,34,1) 8
 background: -o-linear-gradient(left, rgba(92,5,26,1) 0%, rgba(143,2,34,1) 82%, rgba(87,6,25,1) 100%);
 background: -ms-linear-gradient(left, rgba(92,5,26,1) 0%, rgba(143,2,34,1) 82%, rgba(87,6,25,1) 100%);
 background: linear-gradient(to right, rgba(92,5,26,1) 0%, rgba(143,2,34,1) 82%, rgba(87,6,25,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c051a', endColorstr='#570619', GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c051a', endColorstr='#570619', GradientType=1 )
+;
 }
 #heart:before,#heart:after {
     content: "";
@@ -115,6 +116,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#800723', end
     -ms-transform-origin: 0 100%;
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
+       
+}
+@-webkit-keyframes balloon1 {
+  0%,100%{ -webkit-transform:translateY(0) rotate(0deg);}
+  50%{ -webkit-transform:translateY(-20px) rotate(8deg); }
+}
+@-moz-keyframes balloon1 {
+  0%,100%{ -moz-transform:translateY(0) rotate(0deg);}
+  50%{ -moz-transform:translateY(-20px) rotate(8deg); }
+}
+@-o-keyframes balloon1 {
+  0%,100%{ -o-transform:translateY(0) rotate(0deg);}
+  50%{ -o-transform:translateY(-20px) rotate(8deg); }
+}
+@keyframes balloon1 {
+  0%,100%{ transform:translateY(0) rotate(0deg);}
+  50%{ transform:translateY(-20px) rotate(8deg); }
 }
 
 #heart:after {
@@ -252,12 +270,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
     width: 295px;
     height: 53px;
     top: 305px;
-    left: 78px;
+    left: 76px;
     transform: rotate(270deg);
     position: absolute;
     border: solid 2px #BCBEC0;
     border-color: #BCBEC0 transparent transparent transparent;
     border-radius: 235%/100px 100px 0 0;
+  
 }
 #line1{
 	width: 297px;
@@ -269,7 +288,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
     border: solid 2px #000;
     border-color: #000 transparent transparent transparent;
     border-radius: 235%/100px 100px 0 0;
-	}
+}
 	#text{
         color: rgba(250,250,250,0.9);
     text-align: center;
@@ -279,9 +298,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
     position: absolute;
     left: 143px;
     top: 70px;
-
- 
-}
+    }
 #con{
        width: 120px;
     height: 202px;
@@ -483,6 +500,12 @@ clip-path: ellipse(30% 10% at 51% 50%);
 	-webkit-clip-path: ellipse(30% 10% at 51% 50%);
 clip-path: ellipse(30% 10% at 51% 50%); 
       }
+      #con3{
+         -webkit-animation:balloon1 6s ease-in-out infinite;
+  -moz-animation:balloon1 6s ease-in-out infinite;
+  -o-animation:balloon1 6s ease-in-out infinite;
+  animation:balloon1 6s ease-in-out infinite;
+      }
 
 #jar{
 	    width: 120px;
@@ -503,21 +526,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', end
 </style>
 
 
+
 <body>
 
     <div class="canvas">
     	<div id="wall"></div>
-    		<div id="lines"></div>
-    	<div id="line1"></div>
-    	<div id="table"></div>
-    		<div id="triangles"></div>
+    
+    	
+    		
 						
-
+            <div id="con3">
+                    <div id="lines"></div>
+        <div id="line1"></div>
 			<div id="hearts"></div>
-			<div id="heart">
-				
+			<div id="heart"></div>
+
+             <div id="text">Happy<br/>Interactive<br/>Two!</div>
 			</div>
-			<div id="text">Happy<br/>Interactive<br/>Two!</div>
+			<div id="table"></div>
+            <div id="triangles"></div>
 					<div id="ss"></div>
 			    	<div id="bottle">
 			    		<div id="sticker"></div>
