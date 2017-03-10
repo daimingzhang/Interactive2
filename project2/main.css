@@ -27,6 +27,8 @@ body{background-color: black;
   width: 815px;
     height: 790px;
   position: absolute;
+  left: 10px;
+  top: 10px;
    cursor: pointer;
    background-repeat: no-repeat;
    background-size: cover;
@@ -82,488 +84,488 @@ body{background-color: black;
 }
 
 #a:hover #a1{
-  transform: scale(0.5);
+  animation: paused;
    }
 #a:hover #a2{
-   transform: scale(0.5);
+   animation: paused;
 
 }
 #a:hover #a3{
-   transform: scale(0.5);
+   animation: paused;
 
 }
 #a:hover #a4{
-   transform: scale(0.5);
+   animation: paused;
 
 }
 #b:hover #b1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #b:hover #b2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #b:hover #b3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #b:hover #b4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #c:hover #c1{
-  transform: scale(0.5);}
+  animation: paused;}
   #c:hover #c2{
-  transform: scale(0.5);}
+  animation: paused;}
   #c:hover #c3{
-  transform: scale(0.5);}
+  animation: paused;}
   #c:hover #c4{
-  transform: scale(0.5);}
+  animation: paused;}
 
  #d:hover #b1{
-  transform: scale(0.5);}
+  animation: paused;}
   #d:hover #b2{
-  transform: scale(0.5);}
+  animation: paused;}
   #d:hover #b3{
-  transform: scale(0.5);}
+  animation: paused;}
   #d:hover #b4{
-  transform: scale(0.5);}
+  animation: paused;}
 
 #e:hover #e4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #e:hover#e1 {
-  transform: scale(0.5);
+  animation: paused;
 }#e:hover #e2{
-  transform: scale(0.5);
+  animation: paused;
 }#e:hover #e3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #f:hover #f1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #f:hover #f2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #f:hover #f3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #f:hover #f4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #g:hover #g1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #g:hover #g2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #g:hover #g3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #g:hover #g4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #h:hover  #h1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #h:hover #h2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #h:hover #h3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #h:hover #h4{
-  transform: scale(0.5);
+  animation: paused;
 }#i:hover #i1 {
-  transform: scale(0.5);
+  animation: paused;
 }
 #i:hover #i2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #i:hover #i3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #i:hover #i4{
-  transform: scale(0.5);
+  animation: paused;
 }#j:hover #j1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #j:hover #j2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #j:hover #j3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #j:hover #j4{
-  transform: scale(0.5);
+  animation: paused;
 }#k:hover #k1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #k:hover #k2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #k:hover #k3 {
-  transform: scale(0.5);
+  animation: paused;
 }
 #k:hover #k4 {
-  transform: scale(0.5);
+  animation: paused;
 }#l:hover #l1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #l:hover #l2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #l:hover #l3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #l:hover #l4{
-  transform: scale(0.5);
+  animation: paused;
 }#m:hover #m1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #m:hover #m2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #m:hover #m3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #m:hover #m4{
-  transform: scale(0.5);
+  animation: paused;
 }#n:hover #n1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #n:hover #n2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #n:hover #n3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #n:hover #n4{
-  transform: scale(0.5);
+  animation: paused;
 }#o:hover #o1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #o:hover #o2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #o:hover #o3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #o:hover #o4{
-  transform: scale(0.5);
+  animation: paused;
 }#p:hover #p1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #p:hover #p2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #p:hover #p3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #p:hover #p4{
-  transform: scale(0.5);
+  animation: paused;
 }#q:hover #q1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #q:hover #q2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #q:hover #q3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #q:hover #q4{
-  transform: scale(0.5);
+  animation: paused;
 }#r:hover #r1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #r:hover #r2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #r:hover #r3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #r:hover #r4{
-  transform: scale(0.5);
+  animation: paused;
 }#s:hover #s1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #s:hover #s2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #s:hover #s3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #s:hover #s4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #t:hover #t1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #t:hover #t2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #t:hover #t3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #t:hover #t4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #u:hover #u1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #u:hover #u2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #u:hover #u3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #u:hover #u4{
-  transform: scale(0.5);
+  animation: paused;
 }#v:hover #v1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #v:hover #v2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #v:hover #v3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #v:hover #v4{
-  transform: scale(0.5);
+  animation: paused;
 }#w:hover #w1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #w:hover #w2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #w:hover #w3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #w:hover #w4{
-  transform: scale(0.5);
+  animation: paused;
 }#x:hover #x1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #x:hover #x2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #x:hover #x3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #x:hover #x4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #y:hover #y1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #y:hover #y2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #y:hover #y3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #y:hover #y4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #z:hover #z1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #z:hover #z2{
-  transform: scale(0.5);
+  animation: paused;
 }#z:hover #z3{
-  transform: scale(0.5);
+  animation: paused;
 }#z:hover #z4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #one:hover #on1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #one:hover #on2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #one:hover #on3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #one:hover #on4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #two:hover #tw1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #two:hover #tw2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #two:hover #tw3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #two:hover #tw4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #three:hover #th1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #three:hover #th2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #three:hover #th3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #three:hover #th4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #four:hover #fo1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #four:hover #fo2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #four:hover #fo3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #four:hover #fo4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #five:hover #fi1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #five:hover #fi2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #five:hover #fi3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #five:hover #fi4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #six:hover #si1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #six:hover #si2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #six:hover #si3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #six:hover #si4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #seven:hover #se1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #seven:hover #se2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #seven:hover #se3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #seven:hover #se4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #eight:hover #ei1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #eight:hover #ei2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #eight:hover #ei3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #eight:hover #ei4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #nine:hover #ni1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #nine:hover #ni2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #nine:hover #ni3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #nine:hover #ni4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #zero:hover #ze1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #zero:hover #ze2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #zero:hover #ze3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #zero:hover #ze4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #wenhao:hover #wh1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #wenhao:hover #wh2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #wenhao:hover #wh3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #wenhao:hover #wh4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #gantan:hover #gt1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #gantan:hover #gt2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #gantan:hover #gt3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #gantan:hover #gt4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #douhao:hover #dh1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #douhao:hover #dh2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #douhao:hover #dh3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #douhao:hover #dh4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #juhao:hover #jh1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #juhao:hover #jh2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #juhao:hover #jh3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #juhao:hover #jh4{
-  transform: scale(0.5);
+  animation: paused;
 }
 #qianyin:hover #qy1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #qianyin:hover #qy2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #qianyin:hover #qy3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #qianyin:hover #qy4{
-  transform: scale(0.5);
+  animation: paused;
 }
 
 #houyin:hover #hy1{
-  transform: scale(0.5);
+  animation: paused;
 }
 #houyin:hover #hy2{
-  transform: scale(0.5);
+  animation: paused;
 }
 #houyin:hover #hy3{
-  transform: scale(0.5);
+  animation: paused;
 }
 #houyin:hover #hy4{
-  transform: scale(0.5);
+  animation: paused;
 }
 
 .box1{
