@@ -1,16 +1,579 @@
+#box3{
+          width: 815px;
+    height: 811px;
+    position: absolute;
+    left: 270px;
+    top: 12px;
+    border-style: solid;
+    animation: green1 5s infinite;
+    border-width:20px;
+}
+body{background-color: black;
+}
+#box2{
+
+   width: 70px;
+    height: 85px;
+    position: absolute;
+    left:815px;
+    top: 351px;
+     border-style: solid;
+    border-color:red;
+    border-width:10px 10px 10px 10px;
+    animation: green1 5s infinite;
+
+}
+#box5{
+  width: 815px;
+    height: 790px;
+  position: absolute;
+   cursor: pointer;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.boo{
+  width: 815px;
+    height: 790px;
+  position: absolute;
+   cursor: pointer;
+   top:9px;
+   background-repeat: no-repeat;
+   background-image: url(you.png);
+   transform: scale(0.99);
+}
+#box2:hover{background-color: green}
+.he2{
+  display: none;
+}
+
+@keyframes green1{
+    0%{
+      border-color: red;
+    }
+     1%{
+     border-color: red;
+    }
+     25%{
+      border-color:red;
+    }
+    49%{
+      border-color: yellow;
+    }
+    50%{
+      border-color: yellow;
+    }
+    75%{
+      border-color: green;
+    }
+    100% {border-color: green;
+    }
+    }
 
 
+#screen{
+  transform: scale(0.90);
+  position: absolute;
+   width: 1825px;
+   height: 1500px;
+   top:-60px;
+   background-color: black;
+   cursor: pointer;
 
+}
 
+#a:hover #a1{
+  transform: scale(0.5);
+   }
+#a:hover #a2{
+   transform: scale(0.5);
 
+}
+#a:hover #a3{
+   transform: scale(0.5);
 
+}
+#a:hover #a4{
+   transform: scale(0.5);
+
+}
+#b:hover #b1{
+  transform: scale(0.5);
+}
+#b:hover #b2{
+  transform: scale(0.5);
+}
+#b:hover #b3{
+  transform: scale(0.5);
+}
+#b:hover #b4{
+  transform: scale(0.5);
+}
+#c:hover #c1{
+  transform: scale(0.5);}
+  #c:hover #c2{
+  transform: scale(0.5);}
+  #c:hover #c3{
+  transform: scale(0.5);}
+  #c:hover #c4{
+  transform: scale(0.5);}
+
+ #d:hover #b1{
+  transform: scale(0.5);}
+  #d:hover #b2{
+  transform: scale(0.5);}
+  #d:hover #b3{
+  transform: scale(0.5);}
+  #d:hover #b4{
+  transform: scale(0.5);}
+
+#e:hover #e4{
+  transform: scale(0.5);
+}
+#e:hover#e1 {
+  transform: scale(0.5);
+}#e:hover #e2{
+  transform: scale(0.5);
+}#e:hover #e3{
+  transform: scale(0.5);
+}
+#f:hover #f1{
+  transform: scale(0.5);
+}
+#f:hover #f2{
+  transform: scale(0.5);
+}
+#f:hover #f3{
+  transform: scale(0.5);
+}
+#f:hover #f4{
+  transform: scale(0.5);
+}
+#g:hover #g1{
+  transform: scale(0.5);
+}
+#g:hover #g2{
+  transform: scale(0.5);
+}
+#g:hover #g3{
+  transform: scale(0.5);
+}
+#g:hover #g4{
+  transform: scale(0.5);
+}
+#h:hover  #h1{
+  transform: scale(0.5);
+}
+#h:hover #h2{
+  transform: scale(0.5);
+}
+#h:hover #h3{
+  transform: scale(0.5);
+}
+#h:hover #h4{
+  transform: scale(0.5);
+}#i:hover #i1 {
+  transform: scale(0.5);
+}
+#i:hover #i2{
+  transform: scale(0.5);
+}
+#i:hover #i3{
+  transform: scale(0.5);
+}
+#i:hover #i4{
+  transform: scale(0.5);
+}#j:hover #j1{
+  transform: scale(0.5);
+}
+#j:hover #j2{
+  transform: scale(0.5);
+}
+#j:hover #j3{
+  transform: scale(0.5);
+}
+#j:hover #j4{
+  transform: scale(0.5);
+}#k:hover #k1{
+  transform: scale(0.5);
+}
+#k:hover #k2{
+  transform: scale(0.5);
+}
+#k:hover #k3 {
+  transform: scale(0.5);
+}
+#k:hover #k4 {
+  transform: scale(0.5);
+}#l:hover #l1{
+  transform: scale(0.5);
+}
+#l:hover #l2{
+  transform: scale(0.5);
+}
+#l:hover #l3{
+  transform: scale(0.5);
+}
+#l:hover #l4{
+  transform: scale(0.5);
+}#m:hover #m1{
+  transform: scale(0.5);
+}
+#m:hover #m2{
+  transform: scale(0.5);
+}
+#m:hover #m3{
+  transform: scale(0.5);
+}
+#m:hover #m4{
+  transform: scale(0.5);
+}#n:hover #n1{
+  transform: scale(0.5);
+}
+#n:hover #n2{
+  transform: scale(0.5);
+}
+#n:hover #n3{
+  transform: scale(0.5);
+}
+#n:hover #n4{
+  transform: scale(0.5);
+}#o:hover #o1{
+  transform: scale(0.5);
+}
+#o:hover #o2{
+  transform: scale(0.5);
+}
+#o:hover #o3{
+  transform: scale(0.5);
+}
+#o:hover #o4{
+  transform: scale(0.5);
+}#p:hover #p1{
+  transform: scale(0.5);
+}
+#p:hover #p2{
+  transform: scale(0.5);
+}
+#p:hover #p3{
+  transform: scale(0.5);
+}
+#p:hover #p4{
+  transform: scale(0.5);
+}#q:hover #q1{
+  transform: scale(0.5);
+}
+#q:hover #q2{
+  transform: scale(0.5);
+}
+#q:hover #q3{
+  transform: scale(0.5);
+}
+#q:hover #q4{
+  transform: scale(0.5);
+}#r:hover #r1{
+  transform: scale(0.5);
+}
+#r:hover #r2{
+  transform: scale(0.5);
+}
+#r:hover #r3{
+  transform: scale(0.5);
+}
+#r:hover #r4{
+  transform: scale(0.5);
+}#s:hover #s1{
+  transform: scale(0.5);
+}
+#s:hover #s2{
+  transform: scale(0.5);
+}
+#s:hover #s3{
+  transform: scale(0.5);
+}
+#s:hover #s4{
+  transform: scale(0.5);
+}
+#t:hover #t1{
+  transform: scale(0.5);
+}
+#t:hover #t2{
+  transform: scale(0.5);
+}
+#t:hover #t3{
+  transform: scale(0.5);
+}
+#t:hover #t4{
+  transform: scale(0.5);
+}
+#u:hover #u1{
+  transform: scale(0.5);
+}
+#u:hover #u2{
+  transform: scale(0.5);
+}
+#u:hover #u3{
+  transform: scale(0.5);
+}
+#u:hover #u4{
+  transform: scale(0.5);
+}#v:hover #v1{
+  transform: scale(0.5);
+}
+#v:hover #v2{
+  transform: scale(0.5);
+}
+#v:hover #v3{
+  transform: scale(0.5);
+}
+#v:hover #v4{
+  transform: scale(0.5);
+}#w:hover #w1{
+  transform: scale(0.5);
+}
+#w:hover #w2{
+  transform: scale(0.5);
+}
+#w:hover #w3{
+  transform: scale(0.5);
+}
+#w:hover #w4{
+  transform: scale(0.5);
+}#x:hover #x1{
+  transform: scale(0.5);
+}
+#x:hover #x2{
+  transform: scale(0.5);
+}
+#x:hover #x3{
+  transform: scale(0.5);
+}
+#x:hover #x4{
+  transform: scale(0.5);
+}
+#y:hover #y1{
+  transform: scale(0.5);
+}
+#y:hover #y2{
+  transform: scale(0.5);
+}
+#y:hover #y3{
+  transform: scale(0.5);
+}
+#y:hover #y4{
+  transform: scale(0.5);
+}
+#z:hover #z1{
+  transform: scale(0.5);
+}
+#z:hover #z2{
+  transform: scale(0.5);
+}#z:hover #z3{
+  transform: scale(0.5);
+}#z:hover #z4{
+  transform: scale(0.5);
+}
+#one:hover #on1{
+  transform: scale(0.5);
+}
+#one:hover #on2{
+  transform: scale(0.5);
+}
+#one:hover #on3{
+  transform: scale(0.5);
+}
+#one:hover #on4{
+  transform: scale(0.5);
+}
+#two:hover #tw1{
+  transform: scale(0.5);
+}
+#two:hover #tw2{
+  transform: scale(0.5);
+}
+#two:hover #tw3{
+  transform: scale(0.5);
+}
+#two:hover #tw4{
+  transform: scale(0.5);
+}
+#three:hover #th1{
+  transform: scale(0.5);
+}
+#three:hover #th2{
+  transform: scale(0.5);
+}
+#three:hover #th3{
+  transform: scale(0.5);
+}
+#three:hover #th4{
+  transform: scale(0.5);
+}
+#four:hover #fo1{
+  transform: scale(0.5);
+}
+#four:hover #fo2{
+  transform: scale(0.5);
+}
+#four:hover #fo3{
+  transform: scale(0.5);
+}
+#four:hover #fo4{
+  transform: scale(0.5);
+}
+#five:hover #fi1{
+  transform: scale(0.5);
+}
+#five:hover #fi2{
+  transform: scale(0.5);
+}
+#five:hover #fi3{
+  transform: scale(0.5);
+}
+#five:hover #fi4{
+  transform: scale(0.5);
+}
+#six:hover #si1{
+  transform: scale(0.5);
+}
+#six:hover #si2{
+  transform: scale(0.5);
+}
+#six:hover #si3{
+  transform: scale(0.5);
+}
+#six:hover #si4{
+  transform: scale(0.5);
+}
+#seven:hover #se1{
+  transform: scale(0.5);
+}
+#seven:hover #se2{
+  transform: scale(0.5);
+}
+#seven:hover #se3{
+  transform: scale(0.5);
+}
+#seven:hover #se4{
+  transform: scale(0.5);
+}
+#eight:hover #ei1{
+  transform: scale(0.5);
+}
+#eight:hover #ei2{
+  transform: scale(0.5);
+}
+#eight:hover #ei3{
+  transform: scale(0.5);
+}
+#eight:hover #ei4{
+  transform: scale(0.5);
+}
+#nine:hover #ni1{
+  transform: scale(0.5);
+}
+#nine:hover #ni2{
+  transform: scale(0.5);
+}
+#nine:hover #ni3{
+  transform: scale(0.5);
+}
+#nine:hover #ni4{
+  transform: scale(0.5);
+}
+#zero:hover #ze1{
+  transform: scale(0.5);
+}
+#zero:hover #ze2{
+  transform: scale(0.5);
+}
+#zero:hover #ze3{
+  transform: scale(0.5);
+}
+#zero:hover #ze4{
+  transform: scale(0.5);
+}
+#wenhao:hover #wh1{
+  transform: scale(0.5);
+}
+#wenhao:hover #wh2{
+  transform: scale(0.5);
+}
+#wenhao:hover #wh3{
+  transform: scale(0.5);
+}
+#wenhao:hover #wh4{
+  transform: scale(0.5);
+}
+#gantan:hover #gt1{
+  transform: scale(0.5);
+}
+#gantan:hover #gt2{
+  transform: scale(0.5);
+}
+#gantan:hover #gt3{
+  transform: scale(0.5);
+}
+#gantan:hover #gt4{
+  transform: scale(0.5);
+}
+#douhao:hover #dh1{
+  transform: scale(0.5);
+}
+#douhao:hover #dh2{
+  transform: scale(0.5);
+}
+#douhao:hover #dh3{
+  transform: scale(0.5);
+}
+#douhao:hover #dh4{
+  transform: scale(0.5);
+}
+#juhao:hover #jh1{
+  transform: scale(0.5);
+}
+#juhao:hover #jh2{
+  transform: scale(0.5);
+}
+#juhao:hover #jh3{
+  transform: scale(0.5);
+}
+#juhao:hover #jh4{
+  transform: scale(0.5);
+}
+#qianyin:hover #qy1{
+  transform: scale(0.5);
+}
+#qianyin:hover #qy2{
+  transform: scale(0.5);
+}
+#qianyin:hover #qy3{
+  transform: scale(0.5);
+}
+#qianyin:hover #qy4{
+  transform: scale(0.5);
+}
+
+#houyin:hover #hy1{
+  transform: scale(0.5);
+}
+#houyin:hover #hy2{
+  transform: scale(0.5);
+}
+#houyin:hover #hy3{
+  transform: scale(0.5);
+}
+#houyin:hover #hy4{
+  transform: scale(0.5);
+}
 
 .box1{
    position: absolute;
    width: 1425px;
-   height: 800px;
+   height: 1500px;
    background-image: url(.png);
-   background-size: 100%;      background-repeat: no-repeat;
+   background-size: 100%;      
+   background-repeat: no-repeat;
+   background-color: black;
 }
 @keyframes a1{
     0%{
@@ -53,7 +616,7 @@
 }
 @keyframes a4{
     0%{
-      opacity:0；
+      opacity:0;
     }
     74%{
       opacity:0;
@@ -61,87 +624,148 @@
     75%{
       opacity:1;
     }
-    99%{opacity: 1;
-    }
-    100%{opacity:0;
+    100% {opacity:1；
     }
 }
+@keyframes green{
+    0%{
+      background-color: red;
+    }
+     1%{
+     background-color: red;
+    }
+     25%{
+      background-color:red;
+    }
+    49%{
+      background-color: yellow;
+    }
+    50%{
+      background-color: yellow;
+    }
+    75%{
+      background-color: green;
+    }
+    100% {background-color: green;
+    }
+    }
+
+
+
+}
+#a1{
+  animation: a1 5s infinite;
+  background-color: white;
+}
+#a2{
+    position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+   
+}
+#a3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+   
+}
+#a4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+  }
 
 /*AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*/
 #a{
-  width: 110px;
-  height: 100px;
+  width: 107px;
+  height: 88px;
   left: 304px;
-  top: 79px;
+  top: 51px;
+  background-color: ;
   position: absolute;
-  animation:  aa 4s infinite;
+  cursor: pointer;
+
 }
 #left1{
-   position: absolute;
-   width: 7px;
-   height: 7px;
-   background-color: green;
-} 
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 28px;
+ left: 0px;
+ background-color: red;
+ animation: green 5s infinite;
+}
 #left2{
   position: absolute;
   width: 7px;
   height: 7px;
-  top: 25px;
-  background-color: green;
+  top: 53px;
+  left: 0px;
+  background-color: red;
+  animation: green 5s infinite;
 }
 #left3{
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  top: 50px;
-  background-color: green;
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 0px;
+ background-color: red;
+ animation: green 5s infinite;
 }
 #center11{
    position: absolute;
    width: 7px;
    height: 7px;
-   top: -25px;
+   top: 2px;
    left: 26px;
-   background-color: green;
+  background-color: red;
+  animation: green 5s infinite;
 }
 #center21{
   position: absolute;
   width: 7px;
   height: 7px;
-  top: -25px;
+  top: 2px;
   left: 54px;
-  background-color: green;
+  background-color: red;
+  animation: green 5s infinite;
 }
 #center12{
    position: absolute;
    width: 7px;
    height: 7px;
-   top: 12px;
+   top: 40px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #center22{
    position: absolute;
    width: 7px;
    height: 7px;
-   top: 12px;
+   top: 40px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #right1{
   position: absolute;
   width: 7px;
   height: 7px;
   left:81px;
-  background-color: green;
+  top: 28px;
+  background-color: red;
+  animation: green 5s infinite;
 }
 #right2{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation: green 5s infinite;
   left:81px;
-  top:25px;
+  top:53px;
 
 }
 
@@ -149,24 +773,12 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation: green 5s infinite;
   left: 81px;
-  top:50px;
+  top:78px;
 }
-#a2{position: relative;
-   left:7px;
-   animation:  a2 4s infinite;
-}
-#a3{
-   position: relative;
-   left:14px;
-   animation:  a3 4s infinite;
-}
-#a4{
-   position: relative;
-   left:21px;
-   animation:  a4 4s infinite;
-}
+
 
 
 
@@ -177,6 +789,7 @@
    height: 88px;
    left: 437px;
    top: 51px;
+   cursor: pointer;
    position: absolute;
 }
 #bleft1{
@@ -185,7 +798,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #bleft2{
  position: absolute;
@@ -193,7 +807,8 @@
  height: 7px;
  top: 2px;
  left: 0px;
- background-color: green;
+ background-color:red;
+ animation: green 5s infinite;
 }
 #bleft3{
   position: absolute;
@@ -201,7 +816,8 @@
   height: 7px;
   top: 53px;
   left: 0px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
 }
 #bleft4{
  position: absolute;
@@ -209,7 +825,8 @@
  height: 7px;
  top: 78px;
  left: 0px;
- background-color: green;
+ background-color:red;
+ animation: green 5s infinite;
 }
 #bcenter11{
  position: absolute;
@@ -217,7 +834,8 @@
  height: 7px;
  top: 2px;
  left: 26px;
- background-color: green;    
+ background-color:red;
+ animation: green 5s infinite;    
 }
 #bcenter12{  
    position: absolute;
@@ -225,7 +843,8 @@
    height: 7px;
    top: 40px;
    left: 28px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #bcenter21{
    position: absolute;
@@ -233,7 +852,8 @@
    height: 7px;
    top: 2px;
    left: 54px;
-   background-color: green;    
+   background-color:red;
+   animation: green 5s infinite;    
 }
 #bcenter22{
    position: absolute;
@@ -241,7 +861,8 @@
    height: 7px;
    top: 40px;
    left: 54px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #bcenter13{
    position: absolute;
@@ -249,7 +870,8 @@
    height: 7px;
    top: 78px;
    left: 28px;
-   background-color: green;    
+   background-color:red;
+   animation: green 5s infinite;    
 }
 #bcenter23{
    position: absolute;
@@ -257,7 +879,8 @@
    height: 7px;
    top: 78px;
    left: 54px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #bright1{
    position: absolute;
@@ -265,7 +888,8 @@
    height: 7px;
    top: 28px;
    left: 82px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #bright2{
    position: absolute;
@@ -273,7 +897,8 @@
    height: 7px;
    top: 53px;
    left: 82px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #bright3{
    position: absolute;
@@ -281,19 +906,26 @@
    height: 7px;
    top: 78px;
    left: 82px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
+}
+#b1{
+  animation:  a1 5s infinite;
 }
 #b2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #b3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #b4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 
 /*CCCCCCCCCCCCCCCCCCCCCCCCCCCC*/
@@ -304,6 +936,7 @@
   top: 51px;
   position: absolute;
 
+
 }
 #cleft1{
    position: absolute;
@@ -311,7 +944,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #cleft2{
    position: absolute;
@@ -319,7 +953,8 @@
    height: 7px;
    top: 53px;
    left: 0px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #ccenter11{
    position: absolute;
@@ -327,7 +962,8 @@
    height: 7px;
    top: 2px;
    left: 26px;
-   background-color: green;  
+   background-color:red;
+   animation: green 5s infinite;  
 }
 #ccenter13{
    position: absolute;
@@ -335,7 +971,8 @@
    height: 7px;
    top: 78px;
    left: 28px;
-   background-color: green;    
+   background-color:red;
+   animation: green 5s infinite;    
 }
 #ccenter21{
  position: absolute;
@@ -343,7 +980,8 @@
  height: 7px;
  top: 2px;
  left: 54px;
- background-color: green;  
+ background-color:red;
+ animation: green 5s infinite;  
 }
 #ccenter23{
   position: absolute;
@@ -351,7 +989,8 @@
   height: 7px;
   top: 78px;
   left: 54px;
-  background-color: green; 
+  background-color:red;
+  animation: green 5s infinite; 
 }
 #cright1{
   position: absolute;
@@ -359,7 +998,8 @@
   height: 7px;
   top: 15px;
   left: 79px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
 }
 #cright2{
   position: absolute;
@@ -367,19 +1007,26 @@
   height: 7px;
   top: 65px;
   left: 79px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
+}
+#c1{
+  animation:  a1 5s infinite;
 }
 #c2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #c3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #c4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*DDDDDDDDDDDDDDDDDDDDDDDDDDD*/
 #d{
@@ -388,6 +1035,8 @@
   left: 705px;
   top: 51px;
   position: absolute;
+
+  background-color: ;
 }
 /*EEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
 #e{
@@ -396,6 +1045,7 @@
    left: 838px;
    top: 51px;
    position: absolute;
+  background-color: ;
 }
 #eleft1{
    position: absolute;
@@ -403,7 +1053,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #eleft2{
  position: absolute;
@@ -411,7 +1062,8 @@
  height: 7px;
  top: 2px;
  left: 0px;
- background-color: green;
+ background-color:red;
+ animation: green 5s infinite;
 }
 #eleft3{
   position: absolute;
@@ -419,7 +1071,8 @@
   height: 7px;
   top: 53px;
   left: 0px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
 }
 #eleft4{
  position: absolute;
@@ -427,7 +1080,8 @@
  height: 7px;
  top: 78px;
  left: 0px;
- background-color: green;
+ background-color:red;
+ animation: green 5s infinite;
 }
 #ecenter11{
  position: absolute;
@@ -435,7 +1089,8 @@
  height: 7px;
  top: 2px;
  left: 26px;
- background-color: green;    
+ background-color:red;
+ animation: green 5s infinite;    
 }
 #ecenter12{  
    position: absolute;
@@ -443,7 +1098,8 @@
    height: 7px;
    top: 40px;
    left: 28px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #ecenter21{
    position: absolute;
@@ -451,7 +1107,8 @@
    height: 7px;
    top: 2px;
    left: 54px;
-   background-color: green;    
+   background-color:red;
+   animation: green 5s infinite;    
 }
 #ecenter22{
    position: absolute;
@@ -459,7 +1116,8 @@
    height: 7px;
    top: 40px;
    left: 54px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #ecenter13{
    position: absolute;
@@ -467,7 +1125,8 @@
    height: 7px;
    top: 78px;
    left: 28px;
-   background-color: green;    
+   background-color:red;
+   animation: green 5s infinite;    
 }
 #ecenter23{
    position: absolute;
@@ -475,7 +1134,8 @@
    height: 7px;
    top: 78px;
    left: 54px;
-   background-color: green;
+   background-color:red;
+   animation: green 5s infinite;
 }
 #eright1{
   position: absolute;
@@ -483,7 +1143,8 @@
   height: 7px;
   top: 2px;
   left: 77px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
 }
 #eright2{
   position: absolute;
@@ -491,7 +1152,8 @@
   height: 7px;
   top: 40px;
   left: 77px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
 }
 #eright3{
   position: absolute;
@@ -499,19 +1161,26 @@
   height: 7px;
   top: 78px;
   left: 77px;
-  background-color: green;
+  background-color:red;
+  animation: green 5s infinite;
+}
+#e1{
+  animation:  a1 5s infinite;
 }
 #e2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #e3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #e4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*FFFFFFFFFFFFFFFFFFFFFFFFFFFF*/
 #f{
@@ -520,6 +1189,7 @@
    height: 88px;
    top: 51px;
    position: absolute;
+   background-color: ;
 }
 #fleft1{
    position: absolute;
@@ -527,7 +1197,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #fleft2{
  position: absolute;
@@ -535,7 +1206,8 @@
  height: 7px;
  top: 2px;
  left: 0px;
- background-color: green;
+ background-color: red;
+ animation: green 5s infinite;
 }
 #fleft3{
   position: absolute;
@@ -543,7 +1215,8 @@
   height: 7px;
   top: 53px;
   left: 0px;
-  background-color: green;
+  background-color: red;
+  animation: green 5s infinite;
 }
 #fleft4{
  position: absolute;
@@ -551,7 +1224,8 @@
  height: 7px;
  top: 78px;
  left: 0px;
- background-color: green;
+ background-color: red;
+ animation: green 5s infinite;
 }
 #fcenter11{
    position: absolute;
@@ -559,7 +1233,8 @@
     height: 7px;
     top: 2px;
     left: 28px;
-    background-color: green;
+    background-color: red;
+    animation: green 5s infinite;
 }
 #fcenter12{
    position: absolute;
@@ -567,7 +1242,8 @@
    height: 7px;
    top: 40px;
    left: 28px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 
 
 }
@@ -578,7 +1254,8 @@
    height: 7px;
    top: 2px;
    left: 54px;
-   background-color: green; 
+   background-color: red;
+   animation: green 5s infinite; 
 
 }
 
@@ -588,7 +1265,8 @@
    height: 7px;
    top: 40px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #fright1{
    position: absolute;
@@ -596,7 +1274,8 @@
    height: 7px;
    top: 2px;
    left: 82px;
-   background-color: green; 
+   background-color: red;
+   animation: green 5s infinite; 
 
 }
 #fright2{
@@ -605,20 +1284,27 @@
    height: 7px;
    top: 40px;
    left: 82px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 
+}
+#f1{
+  animation:  a1 5s infinite;
 }
 #f2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #f3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #f4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*ggggggggggggggggggggggggggggggggggg*/
 #g{
@@ -634,7 +1320,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #gleft2{
    position: absolute;
@@ -642,7 +1329,8 @@
    height: 7px;
    top: 53px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #gcenter11{
    position: absolute;
@@ -650,7 +1338,8 @@
    height: 7px;
    top: 2px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation: green 5s infinite;  
 }
 #gcenter13{
    position: absolute;
@@ -658,7 +1347,8 @@
    height: 7px;
    top: 78px;
    left: 28px;
-   background-color: green;    
+   background-color: red;
+   animation: green 5s infinite;    
 }
 #gcenter21{
  position: absolute;
@@ -666,7 +1356,8 @@
  height: 7px;
  top: 2px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation: green 5s infinite;  
 }
 #gcenter22{
     position: absolute;
@@ -674,7 +1365,8 @@
    height: 7px;
    top: 40px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #gcenter23{
   position: absolute;
@@ -682,7 +1374,8 @@
   height: 7px;
   top: 78px;
   left: 54px;
-  background-color: green; 
+  background-color: red;
+  animation: green 5s infinite; 
 }
 #gright1{
     position: absolute;
@@ -690,7 +1383,8 @@
    height: 7px;
    top: 40px;
    left: 81px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
 }
 #gright2{
     position: absolute;
@@ -698,19 +1392,26 @@
    height: 7px;
    top: 53px;
    left: 81px;
-   background-color: green;
+   background-color: red;
+   animation: green 5s infinite;
+}
+#g1{
+animation:  a1 5s infinite;
 }
 #g2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #g3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #g4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
@@ -726,14 +1427,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #hleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -742,14 +1445,16 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #hleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #hcenter12{
    position: absolute;
@@ -757,7 +1462,8 @@
    height: 7px;
    top: 42px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #hcenter22{
    position: absolute;
@@ -765,13 +1471,15 @@
    height: 7px;
    top: 42px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #hright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -779,7 +1487,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -789,26 +1498,34 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #hright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
+#h1{
+  animation:  a1 5s infinite;
+}
 #h2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #h3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #h4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
 
@@ -823,28 +1540,32 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 }
 #ileft2{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
 }
 #ileft3{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
 }
 #ileft4{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #icenter11{
@@ -853,7 +1574,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #icenter12{
     position: absolute;
@@ -861,7 +1583,8 @@
    height: 7px;
    top: 79px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #icenter21{
     position: absolute;
@@ -869,7 +1592,8 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #icenter22{
     position: absolute;
@@ -877,13 +1601,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #iright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 79px;
 }
@@ -891,7 +1617,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 79px;
 }
@@ -899,7 +1626,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
    left: 79px;
 }
@@ -907,7 +1635,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 79px;
 }
@@ -915,7 +1644,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left: 41px;
 }
@@ -923,20 +1653,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 41px;
 }
+#i1{
+  animation:  a1 5s infinite;
+}
 #i2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #i3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #i4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj*/
 
@@ -951,7 +1688,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 }
 #jleft2{
@@ -959,7 +1697,8 @@
   width: 7px;
   height: 7px;
   top: 67px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #jcenter11{
     position: absolute;
@@ -967,7 +1706,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #jcenter21{
     position: absolute;
@@ -975,13 +1715,15 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #jright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 79px;
 }
@@ -989,7 +1731,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left: 41px;
 }
@@ -997,7 +1740,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 41px;
 }
@@ -1005,20 +1749,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 41px;
 }
+#j1{
+  animation:  a1 5s infinite;
+}
 #j2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #j3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #j4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk*/
 
@@ -1033,14 +1784,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #kleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -1049,14 +1802,16 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #kleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #kcenter12{
    position: absolute;
@@ -1064,13 +1819,15 @@
    height: 7px;
    top: 42px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #kcenter21{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:54px;
   top:29px;
 }
@@ -1080,13 +1837,15 @@
   height: 7px;
   left:54px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #kright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -1094,20 +1853,27 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
+#k1{
+  animation:  a1 5s infinite;
+}
 #k2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #k3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #k4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*llllllllllllllllllllllllllllllllll*/
 
@@ -1122,14 +1888,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #lleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -1138,14 +1906,16 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #lleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #lcenter13{
    position: absolute;
@@ -1153,7 +1923,8 @@
    height: 7px;
    top: 79px;
    left: 28px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #lcenter23{
   position: absolute;
@@ -1161,26 +1932,34 @@
   height: 7px;
   top: 79px;
   left: 54px;
-  background-color: green; 
+  background-color: red;
+  animation:green 5s infinite; 
 }
 #lright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
+#l1{
+  animation:  a1 5s infinite;
+}
 #l2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #l3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #l4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 #m{
@@ -1194,14 +1973,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #mleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -1210,20 +1991,23 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #mleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #mright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -1231,7 +2015,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -1241,13 +2026,15 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #mright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
@@ -1255,7 +2042,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:15px;
     left: 41px;
 }
@@ -1263,20 +2051,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left: 41px;
 }
+#m1{
+  animation:  a1 5s infinite;
+}
 #m2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #m3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #m4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
 #n{
@@ -1290,14 +2085,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #nleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -1306,21 +2103,24 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #nleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 
 #ncenter11{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:16px;
    left: 28px;
   }
@@ -1328,7 +2128,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:41px;
     left: 41px;
 }
@@ -1336,7 +2137,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:66px;
     left: 52px;
 }
@@ -1345,7 +2147,8 @@
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -1353,7 +2156,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -1363,26 +2167,34 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #nright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
+#n1{
+  animation:  a1 5s infinite;
+}
 #n2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #n3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #n4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 
 /*oooooooooooooooooooooooooooooooo*/
@@ -1400,7 +2212,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #oleft2{
    position: absolute;
@@ -1408,7 +2221,8 @@
    height: 7px;
    top: 53px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #ocenter11{
    position: absolute;
@@ -1416,7 +2230,8 @@
    height: 7px;
    top: 2px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #ocenter13{
    position: absolute;
@@ -1424,7 +2239,8 @@
    height: 7px;
    top: 78px;
    left: 28px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #ocenter21{
  position: absolute;
@@ -1432,7 +2248,8 @@
  height: 7px;
  top: 2px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
 }
 #ocenter23{
   position: absolute;
@@ -1440,7 +2257,8 @@
   height: 7px;
   top: 78px;
   left: 54px;
-  background-color: green; 
+  background-color: red;
+  animation:green 5s infinite; 
 }
 #oright1{
     position: absolute;
@@ -1448,7 +2266,8 @@
    height: 7px;
    top: 28px;
    left: 81px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #oright2{
     position: absolute;
@@ -1456,18 +2275,25 @@
    height: 7px;
    top: 53px;
    left: 81px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#o1{
+  animation:  a1 5s infinite;
 }
 #o2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #o3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #o4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*ppppppppppppppppppppppppppppppppppppp*/
 
@@ -1484,7 +2310,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #pleft2{
  position: absolute;
@@ -1492,7 +2319,8 @@
  height: 7px;
  top: 2px;
  left: 0px;
- background-color: green;
+ background-color: red;
+ animation:green 5s infinite;
 }
 #pleft3{
   position: absolute;
@@ -1500,7 +2328,8 @@
   height: 7px;
   top: 53px;
   left: 0px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #pleft4{
  position: absolute;
@@ -1508,7 +2337,8 @@
  height: 7px;
  top: 78px;
  left: 0px;
- background-color: green;
+ background-color: red;
+ animation:green 5s infinite;
 }
 #pcenter11{
  position: absolute;
@@ -1516,7 +2346,8 @@
  height: 7px;
  top: 2px;
  left: 26px;
- background-color: green;    
+ background-color: red;
+ animation:green 5s infinite;    
 }
 #pcenter12{  
    position: absolute;
@@ -1524,7 +2355,8 @@
    height: 7px;
    top: 40px;
    left: 28px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #pcenter21{
    position: absolute;
@@ -1532,7 +2364,8 @@
    height: 7px;
    top: 2px;
    left: 54px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #pcenter22{
    position: absolute;
@@ -1540,7 +2373,8 @@
    height: 7px;
    top: 40px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #pcenter13{
    position: absolute;
@@ -1548,7 +2382,8 @@
    height: 7px;
    top: 41px;
    left: 28px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #pcenter23{
    position: absolute;
@@ -1556,7 +2391,8 @@
    height: 7px;
    top: 41px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #pright1{
    position: absolute;
@@ -1564,19 +2400,26 @@
    height: 7px;
    top: 28px;
    left: 82px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#p1{
+  animation:  a1 5s infinite;
 }
 #p2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #p3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #p4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq*/
 
@@ -1593,7 +2436,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #qleft2{
    position: absolute;
@@ -1601,7 +2445,8 @@
    height: 7px;
    top: 53px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #qcenter11{
    position: absolute;
@@ -1609,7 +2454,8 @@
    height: 7px;
    top: 2px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #qcenter13{
    position: absolute;
@@ -1617,7 +2463,8 @@
    height: 7px;
    top: 78px;
    left: 28px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #qcenter21{
  position: absolute;
@@ -1625,7 +2472,8 @@
  height: 7px;
  top: 2px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
 }
 #qcenter23{
   position: absolute;
@@ -1633,7 +2481,8 @@
   height: 7px;
   top: 78px;
   left: 54px;
-  background-color: green; 
+  background-color: red;
+  animation:green 5s infinite; 
 }
 #qright1{
     position: absolute;
@@ -1641,7 +2490,8 @@
    height: 7px;
    top: 28px;
    left: 81px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #qright2{
     position: absolute;
@@ -1649,7 +2499,8 @@
    height: 7px;
    top: 53px;
    left: 81px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #qright3{
      position: absolute;
@@ -1657,7 +2508,8 @@
    height: 7px;
    top: 65px;
    left: 67px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #qright4{
     position: absolute;
@@ -1665,18 +2517,25 @@
    height: 7px;
    top: 78px;
    left: 93px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#q1{
+  animation:  a1 5s infinite;
 }
 #q2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #q3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #q4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
 #r{
@@ -1692,7 +2551,8 @@
    height: 7px;
    top: 28px;
    left: 0px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #rleft2{
  position: absolute;
@@ -1700,7 +2560,8 @@
  height: 7px;
  top: 2px;
  left: 0px;
- background-color: green;
+ background-color: red;
+ animation:green 5s infinite;
 }
 #rleft3{
   position: absolute;
@@ -1708,7 +2569,8 @@
   height: 7px;
   top: 53px;
   left: 0px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #rleft4{
  position: absolute;
@@ -1716,7 +2578,8 @@
  height: 7px;
  top: 78px;
  left: 0px;
- background-color: green;
+ background-color: red;
+ animation:green 5s infinite;
 }
 #rcenter11{
  position: absolute;
@@ -1724,7 +2587,8 @@
  height: 7px;
  top: 2px;
  left: 26px;
- background-color: green;    
+ background-color: red;
+ animation:green 5s infinite;    
 }
 #rcenter12{  
    position: absolute;
@@ -1732,7 +2596,8 @@
    height: 7px;
    top: 40px;
    left: 28px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #rcenter21{
    position: absolute;
@@ -1740,7 +2605,8 @@
    height: 7px;
    top: 2px;
    left: 54px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #pcenter22{
    position: absolute;
@@ -1748,7 +2614,8 @@
    height: 7px;
    top: 40px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #rcenter13{
    position: absolute;
@@ -1756,7 +2623,8 @@
    height: 7px;
    top: 41px;
    left: 28px;
-   background-color: green;    
+   background-color: red;
+   animation:green 5s infinite;    
 }
 #rcenter23{
    position: absolute;
@@ -1764,7 +2632,8 @@
    height: 7px;
    top: 41px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #rright1{
    position: absolute;
@@ -1772,7 +2641,8 @@
    height: 7px;
    top: 28px;
    left: 82px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #rright3{
      position: absolute;
@@ -1780,7 +2650,8 @@
    height: 7px;
    top: 65px;
    left: 67px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #rright4{
     position: absolute;
@@ -1788,19 +2659,26 @@
    height: 7px;
    top: 78px;
    left: 93px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#r1{
+  animation:  a1 5s infinite;
 }
 #r2{
    position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #r3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #r4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*ssssssssssssssssssssssssssssss*/
 #s{
@@ -1814,7 +2692,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:16px;
    left: 14px;
 } 
@@ -1824,20 +2703,23 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #sleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 65px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #sright2{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -1847,7 +2729,8 @@
   height: 7px;
   left:81px;
   top: 65px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #sright4{
   position: absolute;
@@ -1855,7 +2738,8 @@
   height: 7px;
   left:67px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #scenter11{
    position: absolute;
@@ -1863,7 +2747,8 @@
    height: 7px;
    top: 2px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #scenter12{
  position: absolute;
@@ -1871,7 +2756,8 @@
  height: 7px;
  top: 2px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
 }
 #scenter21{
    position: absolute;
@@ -1879,7 +2765,8 @@
    height: 7px;
    top: 41px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #scenter22{
  position: absolute;
@@ -1887,7 +2774,8 @@
  height: 7px;
  top: 41px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
 }
 #scenter31{
    position: absolute;
@@ -1895,7 +2783,8 @@
    height: 7px;
    top: 78px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #scenter32{
  position: absolute;
@@ -1903,18 +2792,25 @@
  height: 7px;
  top: 78px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#s1{
+  animation:  a1 5s infinite;
 }
 #s2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #s3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #s4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*IIIIiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
 #t{
@@ -1928,28 +2824,32 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 }
 #tleft2{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
 }
 #tleft3{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
 }
 #tleft4{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #tcenter11{
@@ -1958,7 +2858,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #tcenter12{
     position: absolute;
@@ -1966,7 +2867,8 @@
    height: 7px;
    top: 79px;
    left: 41px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #tcenter21{
     position: absolute;
@@ -1974,7 +2876,8 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #tcenter22{
     position: absolute;
@@ -1982,13 +2885,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #tright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 79px;
 }
@@ -1996,7 +2901,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left: 41px;
 }
@@ -2004,20 +2910,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 41px;
 }
+#t1{
+  animation:  a1 5s infinite;
+}
 #t2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #t3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #t4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu*/
 #u{
@@ -2031,7 +2944,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -2040,14 +2954,16 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #uleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #ucenter12{
    position: absolute;
@@ -2055,7 +2971,8 @@
    height: 7px;
    top: 79px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #ucenter22{
    position: absolute;
@@ -2063,13 +2980,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #uright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -2077,7 +2996,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -2087,18 +3007,25 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#u1{
+  animation:  a1 5s infinite;
 }
 #u2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #u3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #u4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
 #v{
@@ -2112,7 +3039,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
   
 } 
@@ -2123,7 +3051,8 @@
   height: 7px;
   top: 29px;
   left: 14px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #vleft3{
   position: absolute;
@@ -2131,13 +3060,15 @@
   height: 7px;
   top: 54px;
   left: 28px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #vcenter{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 41px;
 }
@@ -2145,7 +3076,8 @@
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -2153,7 +3085,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:69px;
   top:29px;
 }
@@ -2163,18 +3096,25 @@
   height: 7px;
   left:55px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#v1{
+  animation:  a1 5s infinite;
 }
 #v2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #v3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #v4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww*/
 #w{
@@ -2189,14 +3129,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #wleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -2205,20 +3147,23 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #wleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #wright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -2226,7 +3171,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -2236,13 +3182,15 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #wright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
@@ -2250,7 +3198,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:15px;
     left: 41px;
 }
@@ -2258,20 +3207,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left: 41px;
 }
+#w1{
+  animation:  a1 5s infinite;
+}
 #w2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #w3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #w4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 #x{
@@ -2285,14 +3241,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #xleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 #xcenter11{
@@ -2301,7 +3259,8 @@
    height: 7px;
    top: 29px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #xcenter12{
    position: absolute;
@@ -2309,7 +3268,8 @@
    height: 7px;
    top: 29px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #xcenter21{
    position: absolute;
@@ -2317,7 +3277,8 @@
    height: 7px;
    top: 54px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #xcenter22{
    position: absolute;
@@ -2325,13 +3286,15 @@
    height: 7px;
    top: 54px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #xright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -2339,20 +3302,27 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
+#x1{
+  animation:  a1 5s infinite;
+}
 #x2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #x3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #x4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
 #y{
@@ -2366,14 +3336,16 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #yleft1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -2382,14 +3354,16 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #yleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #ycenter12{
    position: absolute;
@@ -2397,7 +3371,8 @@
    height: 7px;
    top: 42px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #ycenter22{
    position: absolute;
@@ -2405,13 +3380,15 @@
    height: 7px;
    top: 42px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #yright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 81px;
 }
@@ -2419,7 +3396,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -2429,13 +3407,15 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #yright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
@@ -2443,7 +3423,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
     left: 41px;
 }
@@ -2451,20 +3432,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 41px;
 }
+#y1{
+  animation:  a1 5s infinite;
+}
 #y2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #y3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #y4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 #z{
@@ -2478,28 +3466,32 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 }
 #zleft2{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
 }
 #zleft3{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
 }
 #zleft4{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #zcenter11{
@@ -2508,7 +3500,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #zcenter12{
     position: absolute;
@@ -2516,7 +3509,8 @@
    height: 7px;
    top: 79px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #zcenter21{
     position: absolute;
@@ -2524,7 +3518,8 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #zcenter22{
     position: absolute;
@@ -2532,13 +3527,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #zright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 79px;
 }
@@ -2546,7 +3543,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 79px;
 }
@@ -2554,7 +3552,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
    left: 79px;
 }
@@ -2562,7 +3561,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 79px;
 }
@@ -2570,7 +3570,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left:54px;
 }
@@ -2578,20 +3579,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 27px;
 }
+#z1{
+  animation:  a1 5s infinite;
+}
 #z2{position: relative;
    left:7px;
+   animation:  a2 5s infinite;
 }
 #z3{
    position: relative;
    left:14px;
+   animation:  a3 5s infinite;
 }
 #z4{
    position: relative;
    left:21px;
+   animation:  a4 5s infinite;
 }
 /*111111111111111111111111111111111*/
 #one{
@@ -2605,21 +3613,24 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
 }
 #onleft3{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
 }
 #onleft4{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #oncenter11{
@@ -2628,7 +3639,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #oncenter12{
     position: absolute;
@@ -2636,7 +3648,8 @@
    height: 7px;
    top: 79px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #oncenter21{
     position: absolute;
@@ -2644,7 +3657,8 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #oncenter22{
     position: absolute;
@@ -2652,13 +3666,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #onright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 79px;
 }
@@ -2666,7 +3682,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 79px;
 }
@@ -2674,7 +3691,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
    left: 79px;
 }
@@ -2682,7 +3700,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 79px;
 }
@@ -2690,7 +3709,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left:54px;
 }
@@ -2698,20 +3718,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 54px;
 }
+#on1{
+  animation: a1 5s infinite;
+}
 #on2{position: relative;
    left:7px;
+   animation: a2 5s infinite;
 }
 #on3{
    position: relative;
    left:14px;
+   animation: a3 5s infinite;
 }
 #on4{
    position: relative;
    left:21px;
+   animation: a4 5s infinite;
 }
 /*222222222222222222222222222222*/
 #two{
@@ -2725,28 +3752,32 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 }
 #twleft2{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
 }
 #twleft3{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
 }
 #twleft4{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #twcenter11{
@@ -2755,7 +3786,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #twcenter12{
     position: absolute;
@@ -2763,7 +3795,8 @@
    height: 7px;
    top: 79px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #twcenter21{
     position: absolute;
@@ -2771,7 +3804,8 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #twcenter22{
     position: absolute;
@@ -2779,13 +3813,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #twright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:16px;
    left: 79px;
 }
@@ -2794,7 +3830,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 79px;
 }
@@ -2802,7 +3839,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
    left: 79px;
 }
@@ -2810,7 +3848,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 79px;
 }
@@ -2818,7 +3857,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
     left:54px;
 }
@@ -2826,20 +3866,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 27px;
 }
+#tw1{
+  animation: a1 5s infinite;
+}
 #tw2{position: relative;
    left:7px;
+   animation: a2 5s infinite;
 }
 #tw3{
    position: relative;
    left:14px;
+   animation: a3 5s infinite;
 }
 #tw4{
    position: relative;
    left:21px;
+   animation: a4 5s infinite;
 }
 /*33333333333333333333333333333333333*/
 #three{
@@ -2853,28 +3900,32 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 }
 #thleft2{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
 }
 #thleft3{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
 }
 #thleft4{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
 }
 #thcenter11{
@@ -2883,7 +3934,8 @@
    height: 7px;
    top: 4px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #thcenter12{
     position: absolute;
@@ -2891,7 +3943,8 @@
    height: 7px;
    top: 79px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #thcenter21{
     position: absolute;
@@ -2899,7 +3952,8 @@
    height: 7px;
    top: 4px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #thcenter22{
     position: absolute;
@@ -2907,13 +3961,15 @@
    height: 7px;
    top: 79px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #thright1{
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:16px;
    left: 79px;
 }
@@ -2922,7 +3978,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 79px;
 }
@@ -2930,7 +3987,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:29px;
    left: 79px;
 }
@@ -2938,7 +3996,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:54px;
    left: 79px;
 }
@@ -2946,7 +4005,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:41px;
     left:54px;
 }
@@ -2954,20 +4014,27 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:41px;
    left: 27px;
 }
+#th1{
+  animation: a1 5s infinite;
+}
 #th2{position: relative;
    left:7px;
+   animation: a2 5s infinite;
 }
 #th3{
    position: relative;
    left:14px;
+   animation: a3 5s infinite;
 }
 #th4{
    position: relative;
    left:21px;
+   animation: a4 5s infinite;
 }
 /*44444444444444444444444444444*/
 #four{
@@ -2981,7 +4048,8 @@
     position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:79px;
    left: 54px;
 }
@@ -2989,7 +4057,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
 } 
 
@@ -2998,14 +4067,16 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #foleft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #focenter12{
    position: absolute;
@@ -3013,7 +4084,8 @@
    height: 7px;
    top: 54px;
    left: 26px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #focenter22{
    position: absolute;
@@ -3021,13 +4093,15 @@
    height: 7px;
    top: 54px;
    left: 54px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
 }
 #foright1{
  position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:4px;
    left: 54px;
 }
@@ -3035,7 +4109,8 @@
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:54px;
   top:29px;
 }
@@ -3045,26 +4120,34 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #foright4{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:79px;
 }
+#fo1{
+  animation: a1 5s infinite;
+}
 #fo2{position: relative;
    left:7px;
+   animation: a2 5s infinite;
 }
 #fo3{
    position: relative;
    left:14px;
+   animation: a3 5s infinite;
 }
 #fo4{
    position: relative;
    left:21px;
+   animation: a4 5s infinite;
 }
 /*55555555555555555555555555555555*/
 #five{
@@ -3078,7 +4161,8 @@
    position: absolute;
    width: 7px;
    height: 7px;
-   background-color: green;
+   background-color: red;
+   animation:green 5s infinite;
    top:2px;
 } 
 
@@ -3087,20 +4171,23 @@
   width: 7px;
   height: 7px;
   top: 29px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #fileft3{
   position: absolute;
   width: 7px;
   height: 7px;
   top: 65px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #firight2{
   position: absolute;
   width: 7px;
   height: 7px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
   left:81px;
   top:29px;
 }
@@ -3110,7 +4197,8 @@
   height: 7px;
   left:81px;
   top: 54px;
-  background-color: green;
+  background-color: red;
+  animation:green 5s infinite;
 }
 #ficenter11{
    position: absolute;
@@ -3118,7 +4206,8 @@
    height: 7px;
    top: 2px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #ficenter12{
  position: absolute;
@@ -3126,7 +4215,8 @@
  height: 7px;
  top: 2px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
 }
 #ficenter21{
    position: absolute;
@@ -3134,7 +4224,8 @@
    height: 7px;
    top: 41px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #ficenter22{
  position: absolute;
@@ -3142,7 +4233,8 @@
  height: 7px;
  top: 41px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
 }
 #ficenter31{
    position: absolute;
@@ -3150,7 +4242,8 @@
    height: 7px;
    top: 78px;
    left: 26px;
-   background-color: green;  
+   background-color: red;
+   animation:green 5s infinite;  
 }
 #ficenter32{
  position: absolute;
@@ -3158,19 +4251,1592 @@
  height: 7px;
  top: 78px;
  left: 54px;
- background-color: green;  
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#fi1{
+  animation: a1 5s infinite;
 }
 #fi2{position: relative;
    left:7px;
+   animation: a2 5s infinite;
 }
 #fi3{
    position: relative;
    left:14px;
+   animation: a3 5s infinite;
 }
 #fi4{
    position: relative;
    left:21px;
+   animation: a4 5s infinite;
 }
+/*66666666666666666666666666666666666*/
+#six{
+    left: 436px;
+    width: 107px;
+    height: 88px;
+    top: 622px;
+    position: absolute;
+}
+
+#sileft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+} 
+
+#sileft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#sileft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#siright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#siright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#siright4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#sicenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#sicenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#sicenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 41px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#sicenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 41px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#sicenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#sicenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#si1{
+  animation: a1 5s infinite;
+}
+#si2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#si3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#si4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*77777777777777777777777777777777777*/
+#seven{
+     left: 567px;
+    width: 107px;
+    height: 88px;
+    top: 622px;
+    position: absolute;
+    transform:rotate(180deg);
+    transform: rotateX(180deg);
+}
+#seleft2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+}
+#seleft3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+}
+#seleft4{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:79px;
+}
+#secenter11{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 67px;
+   left: 67px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#secenter12{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 79px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#secenter21{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 4px;
+   left: 54px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#secenter22{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 79px;
+   left: 54px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#seright1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:4px;
+   left: 79px;
+}
+#seright4{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:79px;
+   left: 79px;
+}
+#seright2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+   left: 79px;
+}
+#seright3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+   left: 54px;
+}
+#secenter2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+    left:54px;
+}
+#secenter3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+   left: 54px;
+}
+#se1{
+  animation: a1 5s infinite;
+}
+#se2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#se3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#se4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*88888888888888888888888888888888888*/
+#eight{
+    left: 701px;
+    width: 107px;
+    height: 88px;
+    top: 622px;
+    position: absolute;
+}
+
+#eileft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+} 
+
+#eileft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#eileft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#eiright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#eiright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#eiright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#eiright4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#eicenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#eicenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#eicenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 41px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#eicenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 41px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#eicenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#eicenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#ei1{
+  animation: a1 5s infinite;
+}
+#ei2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#ei3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#ei4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*99999999999999999999999999999999*/
+#nine{
+    left: 836px;
+    width: 107px;
+    height: 88px;
+    top: 622px;
+    position: absolute;
+}
+
+#nileft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:16px;
+} 
+
+#nileft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#nileft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#niright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:54px;
+}
+#niright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 16px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#niright4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#nicenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#nicenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#nicenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 41px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#nicenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 41px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#nicenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#nicenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#ni1{
+  animation: a1 5s infinite;
+}
+#ni2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#ni3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#ni4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*000000000000000000000000000000000000*/
+#zero{
+    left: 968px;
+    width: 107px;
+    height: 88px;
+    top: 622px;
+    position: absolute;
+}
+
+#zeleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+} 
+
+#zeleft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zeleft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zeleft4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 16px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zeright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#zeright1{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 16px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zeright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zeright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zeright4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#zecenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#zecenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#zecenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 41px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#zecenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 41px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#zecenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#zecenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#ze1{
+  animation: a1 5s infinite;
+}
+#ze2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#ze3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#ze4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*222222222222222222222222222222*/
+#wenhao{
+   left: 304px;
+    width: 107px;
+    height: 88px;
+    top: 736px;
+    position: absolute;
+}
+#whleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:4px;
+}
+#whleft2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:41px;
+   left: 27px;
+}
+#whleft3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+}
+#whleft4{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:41px;
+   left: 27px;
+}
+#whcenter11{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 4px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#whcenter12{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 79px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#whcenter21{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 4px;
+   left: 54px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#whcenter22{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 79px;
+   left: 54px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#whright1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:16px;
+   left: 79px;
+}
+
+#whright4{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:79px;
+   left: 79px;
+}
+#whright2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+   left: 79px;
+}
+#whright3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+   left: 79px;
+}
+#whcenter2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+    left:54px;
+}
+#whcenter3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+   left: 27px;
+}
+#wh1{
+  animation: a1 5s infinite;
+}
+#wh2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#wh3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#wh4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*222222222222222222222222222222*/
+#gantan{
+   left: 435px;
+    width: 107px;
+    height: 88px;
+    top: 736px;
+    position: absolute;
+}
+#gtleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:4px;
+}
+#gtleft2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:41px;
+   left: 27px;
+}
+#gtleft3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+}
+#gtleft4{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:41px;
+   left: 27px;
+}
+#gtcenter11{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 4px;
+   left: 27px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#gtcenter12{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 79px;
+   left: 27px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#gtcenter21{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 4px;
+   left: 54px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#gtcenter22{
+    position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 79px;
+   left: 54px;
+   background-color: red;
+   animation:green 5s infinite;
+}
+#gtright1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:16px;
+   left: 27px;
+}
+
+#gtright4{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:79px;
+   left: 79px;
+}
+#gtright2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+   left: 79px;
+}
+#gtright3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+   left: 79px;
+}
+#gtcenter2{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:29px;
+    left:27px;
+}
+#gtcenter3{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+   left: 27px;
+}
+#gt1{
+  animation: a1 5s infinite;
+}
+#gt2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#gt3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#gt4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+
+
+/*douhao*/
+#douhao{
+    left: 572px;
+    width: 107px;
+    height: 88px;
+    top: 737px;
+    position: absolute;
+}
+#dhleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:2px;
+} 
+
+#dhleft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#dhleft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#dhright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#dhright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#dhcenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#dhcenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#dhcenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 65px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#dhcenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 65px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#dhcenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#dhcenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#dh1{
+  animation: a1 5s infinite;
+}
+#dh2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#dh3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#dh4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*juhao*/
+#juhao{
+    left: 700px;
+    width: 107px;
+    height: 88px;
+    top: 737px;
+    position: absolute;
+}
+#jhleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:2px;
+} 
+
+#jhleft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#jhleft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#jhright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#jhright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#jhcenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#jhcenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#jhcenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 65px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#jhcenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 65px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#jhcenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#jhcenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#jh1{
+  animation: a1 5s infinite;
+}
+#jh2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#jh3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#jh4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+/*""*/
+#qianyin{
+    left: 837px;
+    width: 107px;
+    height: 88px;
+    top: 737px;
+    position: absolute;
+}
+
+#qyleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+} 
+
+#qyleft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qyleft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qyleft4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 2px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qyright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#qyright1{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 16px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qyright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qyright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qyright4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#qycenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 16px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#qycenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#qycenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 41px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#qycenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 41px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#qycenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#qycenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#qy1{
+  animation: a1 5s infinite;
+}
+#qy2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#qy3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#qy4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+#houyin{
+    left: 968px;
+    width: 107px;
+    height: 88px;
+    top: 737px;
+    position: absolute;
+}
+
+#hyleft1{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   background-color: red;
+   animation:green 5s infinite;
+   top:54px;
+} 
+
+#hyleft2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hyleft3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hyleft4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 16px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hyright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background-color: red;
+  animation:green 5s infinite;
+  left:81px;
+  top:29px;
+}
+#hyright1{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 16px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hyright2{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 29px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hyright3{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 54px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hyright4{
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left:81px;
+  top: 65px;
+  background-color: red;
+  animation:green 5s infinite;
+}
+#hycenter11{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 2px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#hycenter12{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 2px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#hycenter21{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 41px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#hycenter22{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 41px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#hycenter31{
+   position: absolute;
+   width: 7px;
+   height: 7px;
+   top: 78px;
+   left: 26px;
+   background-color: red;
+   animation:green 5s infinite;  
+}
+#hycenter32{
+ position: absolute;
+ width: 7px;
+ height: 7px;
+ top: 78px;
+ left: 54px;
+ background-color: red;
+ animation:green 5s infinite;  
+}
+#hy1{
+  animation: a1 5s infinite;
+}
+#hy2{position: relative;
+   left:7px;
+   animation: a2 5s infinite;
+}
+#hy3{
+   position: relative;
+   left:14px;
+   animation: a3 5s infinite;
+}
+#hy4{
+   position: relative;
+   left:21px;
+   animation: a4 5s infinite;
+}
+
 
 
 
