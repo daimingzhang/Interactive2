@@ -1,0 +1,1178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+<script src="https://use.typekit.net/zwq8dqc.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+	<title>Larry Sultan&ndash;Picture From Home</title>
+  <style>
+
+
+
+
+
+.none{
+            display: none;
+        }
+
+        .layout-root{
+             position:fixed;
+    background: none;
+    z-index: 1000;
+     margin-left: 47.4%;
+     margin-top: 24.5%;
+
+        }
+
+        .layout-content{
+            line-height: 44px;
+            font-weight: 300;
+            font-size: 1em;
+            color: #fff;
+            text-indent: 10px;
+        }
+
+        .layout-content .code{
+            line-height: 22px;
+            text-align: center;
+        }
+
+        p {
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        }
+
+        a, button{
+
+            background-color: white;
+                    outline: none;
+        }
+        .nav{
+            position: absolute;
+            height: 100%;
+             width: 100%;
+             overflow: hidden;
+             left: 0px;
+             top: 0px;
+        }
+        #button1 {
+            background-color:transparent;
+            transform: scale(1);
+            position: relative;
+            border: none;
+            cursor: pointer;
+		    display: block;
+            width: 50px;
+            height:47px;
+		    
+        }
+        #button1:hover {
+        	transform: scale(2.3);
+        
+      }
+        #button2{
+        	border: none;
+		    color: black;
+		    background-color:white;
+		    cursor: pointer;
+		    display: block;
+		    margin: auto;
+		    text-align: center;
+		    width: 50px;
+		    height:30px;
+		    font-family: acumin-pro-condensed;
+		    font-weight: 700;
+		    font-style: normal;
+		    font-size: 15px;
+
+        }
+
+        .open{
+            background-color: transparent;
+            font-family: acumin-pro-condensed;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.5vw;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+
+        }
+
+        button:hover, button:active, button:focus{
+            border: none;
+        }
+
+        /* ---------------------弹窗样式 -------------------*/
+        .dialog-face{
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            background-color:white;
+            -webkit-animation-duration: 500ms;
+            -moz-animation-duration:500ms;
+            -o-animation-duration:500ms;
+            animation-duration: 500ms;
+        }
+
+        .dialog-face.slipBottom[opacity="0"]{
+            display: none;
+        }
+
+        .dialog-face.slipUp{
+            opacity: 0.8;
+            -webkit-animation-name: dialogFaceSlipToUp;
+            -moz-animation-name: dialogFaceSlipToUp;
+            -o-animation-name: dialogFaceSlipToUp;
+            animation-name: dialogFaceSlipToUp;
+        }
+
+        .dialog-face.slipBottom{
+            opacity: 0;
+            visibility: hidden;
+            -webkit-animation-name: dialogFaceSlipToBottom;
+            -moz-animation-name: dialogFaceSlipToBottom;
+            -o-animation-name: dialogFaceSlipToBottom;
+            animation-name: dialogFaceSlipToBottom;
+        }
+
+        .dialog-root{
+            position: fixed;
+            z-index: 2000;
+            left: 50%;
+            -webkit-animation-duration: 500ms;
+            -moz-animation-duration: 500ms;
+            -o-animation-duration: 500ms;
+            animation-duration: 500ms;
+            -webkit-perspective: 1300px;
+            -moz-perspective: 1300px;
+            perspective: 1300px;
+        }
+
+        .dialog-root.slipUp{
+            top: 50%;
+            opacity: 1;
+
+
+            -webkit-animation-name: dialogSlipToUp;
+            -moz-animation-name: dialogSlipToUp;
+            -o-animation-name: dialogSlipToUp;
+            animation-name: dialogSlipToUp;
+            -webkit-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .dialog-root.slipBottom{
+            top: 100%;
+            opacity: 0.3;
+            -webkit-animation-duration: 500ms;
+            -moz-animation-duration: 500ms;
+            -o-animation-duration: 500ms;
+            animation-duration: 500ms;
+            -webkit-animation-name: dialogSlipToBottom;
+            -moz-animation-name: dialogSlipToBottom;
+            -o-animation-name: dialogSlipToBottom;
+            animation-name: dialogSlipToBottom;
+            -webkit-transform: translate(-50%, 0);
+            -o-transform: translate(-50%, 0);
+            -moz-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+        }
+
+        .dialog-wrapper{
+
+        	background-color:white;
+        	font-family:acumin-pro-condensed;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 20px;
+            background:white;
+            width: 635px;
+            height: 500px;
+            overflow: hidden;
+
+            -webkit-animation-duration: 500ms;
+            -moz-animation-duration: 500ms;
+            -o-animation-duration: 500ms;
+            animation-duration: 500ms;
+            -webkit-transform-origin: 50% 100%;
+            -moz-transform-origin: 50% 100%;
+            -ms-transform-origin: 50% 100%;
+            -o-transform-origin:50% 100%;
+            transform-origin: 50% 100%;
+        }
+        .b3{font-family: parisine-office-std;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 15px;
+        	margin-left: 10px;
+        	text-align: center;
+        	color: black;
+            background-color:white;
+            line-height: 23px;
+        }
+
+        .dialog-wrapper.slipUp{
+            background-color: white;
+            -webkit-transform: rotateX(0deg);
+            -moz-transform: rotateX(0deg);
+            -ms-transform: rotateX(0deg);
+            -o-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+            -webkit-animation-name: contentSlipToUp;
+            -moz-animation-name: contentSlipToUp;
+            -o-animation-name: contentSlipToUp;
+            animation-name: contentSlipToUp;
+        }
+
+        .dialog-wrapper.slipBottom{
+            -webkit-transform: rotateX(90deg);
+            -moz-transform: rotateX(90deg);
+            -ms-transform: rotateX(90deg);
+            -o-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+            -webkit-animation-name: contentSlipToBottom;
+            -moz-animation-name: contentSlipToBottom;
+            -o-animation-name: contentSlipToBottom;
+            animation-name: contentSlipToBottom;
+        }
+
+        .dialog-header{
+            height: 75px;
+            background-color:white;
+            text-align: center;
+            font-family:acumin-pro-condensed;
+			font-weight: 500;
+			font-style: normal;
+			color:black;
+			font-size: 40px;
+        }
+        .b2{
+        	background-color:white;
+            text-align: center;
+            font-family:parisine-office-std;
+			font-weight: 700;
+			font-style: normal;
+			font-size: 28px;
+			color:black;
+        }
+
+        .dialog-header span{
+            font-size: 28px;
+            line-height: 75px;
+            color:#F6CBC6;
+        }
+
+        .dialog-content{
+            font-weight: 300;
+            font-size: 1em;
+            line-height: 28px;
+            color: none;
+            padding: 15px 40px 20px 40px;
+            margin: 0;
+        }
+
+
+        .dialog-content p{
+
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        .dialog-footer{background-color: white;
+        }
+        /* ---------------------动画关键帧 -------------------*/
+
+        @keyframes dialogFaceSlipToUp  {
+            0%{
+               opacity: 0;
+            }
+            100%{
+                opacity: 0.7;
+            }
+        }
+        
+        @keyframes dialogFaceSlipToBottom {
+            0%{
+                opacity: 0.7;
+                visibility:visible;
+            }
+            100%{
+                visibility: hidden;
+                opacity: 0;
+            }
+        }
+
+        @keyframes dialogSlipToUp  {
+            0%{
+                top: 100%;
+                opacity: 0.3;
+            }
+            100%{
+                top: 50%;
+                opacity: 1;
+            }
+        }
+
+        @keyframes dialogSlipToBottom  {
+            0%{
+                top: 50%;
+                opacity: 1;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            100%{
+                top: 100%;
+                opacity: 0.3;
+                -webkit-transform: translate(-50%, 0);
+                -moz-transform: translate(-50%, 0);
+                -ms-transform: translate(-50%, 0);
+                -o-transform: translate(-50%, 0);
+                transform: translate(-50%, 0);
+            }
+        }
+
+        @keyframes contentSlipToUp  {
+            0%{
+                -webkit-transform: rotateX(90deg);
+                -moz-transform: rotateX(90deg);
+                -ms-transform: rotateX(90deg);
+                -o-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+            }
+            100%{
+                -webkit-transform: rotateX(0deg);
+                -moz-transform: rotateX(0deg);
+                -ms-transform: rotateX(0deg);
+                -o-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+            }
+        }
+
+        @keyframes contentSlipToBottom  {
+            0%{
+                -webkit-transform: rotateX(0deg);
+                -moz-transform: rotateX(0deg);
+                -ms-transform: rotateX(0deg);
+                -o-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+            }
+            60%{
+                -webkit-transform: rotateX(60deg);
+                -moz-transform: rotateX(60deg);
+                -ms-transform: rotateX(60deg);
+                -o-transform: rotateX(60deg);
+                transform: rotateX(60deg);
+            }
+            100%{
+                -webkit-transform: rotateX(90deg);
+                -moz-transform: rotateX(90deg);
+                -ms-transform: rotateX(90deg);
+                -o-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+            }
+        }
+
+
+
+
+
+        .containter{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    padding: 0px;
+    background-color:white; 
+    border-top:15px white; 
+    
+}
+.mother{
+    position: relative;    
+    height:50%;
+    width: 50%;
+     float: left;
+     overflow: auto;
+     overflow-x:scroll; 
+     text-align: center;
+
+
+}
+
+.mother::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            background-color:black;
+        }
+.father::-webkit-scrollbar {
+            width: 1px;
+            height: 10px;
+            background-color:black;
+        }
+.family::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            background-color:black;
+        }
+.object::-webkit-scrollbar {
+            width: 1px;
+            height: 10px;
+            background-color:black;
+        }
+.father{
+    position: relative;    
+    height:50%;
+    width: 50%;
+     float: left;
+     overflow:scroll;
+     text-align: center;
+
+}
+
+
+.family{
+    position: relative;    
+    height:50%;
+    width: 50%;
+     float: left;
+     overflow:scroll;
+     overflow-x: hidden;
+     text-align: center;
+}
+
+.object{
+    position: relative;    
+    height:50%;
+    width: 50%;
+     float: left;
+     overflow:scroll; 
+    overflow-x: hidden;
+     text-align: center;
+
+ }
+
+
+
+
+
+     .juzhong{
+        float: left;
+    font-family:parisine-office-std;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8.5vw;
+    width: 100%;
+    height: 100%;
+    color: black;
+    position: relative;
+    text-align: center center;
+}
+
+
+.sfmoma{
+	transform: scale(0.5);
+	margin-left: 170PX;
+	margin-top: 30px;
+
+}
+.moma{
+    cursor: pointer;
+
+}
+
+.juzhong2{
+    position:absolute;
+    width: 100%;
+    text-align: center center;
+}
+
+
+        /*mother!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.text11{
+	float: left;
+    position: relative;
+	font-family:parisine-office-std;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 10vw;
+	width: 100%;
+    height:600px;
+	color: black;
+}
+.mother1{
+	float: left;
+	width:100%;
+	height:585px;
+	background-size: contain;
+	background-image: url(home/mother/1985.jpg);
+	background-repeat: no-repeat;
+
+}
+.mother2{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/mother/1986.jpg);
+    background-repeat: no-repeat;
+
+}
+.mother3{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/mother/1987.jpg);
+    background-repeat: no-repeat;
+
+}
+.mother4{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/mother/1988.jpg);
+    background-repeat: no-repeat;
+
+}
+.mother5{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/mother/1989.jpg);
+    background-repeat: no-repeat;
+
+}
+.mother6{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/mother/1990.jpg);
+    background-repeat: no-repeat;
+
+}
+.mother7{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/mother/1991.jpg);
+    background-repeat: no-repeat;
+
+}
+.mother8{
+    float: left;
+    width: 100%;
+    height: 885px;
+    background-size:contain;
+    background-image: url(home/mother/1992.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+        /*mfather!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+        .father1{
+    float: left;
+    width: 100%;
+    height:585px;
+    background-size: contain;
+    background-image: url(home/father/1984.jpg);
+    background-repeat: no-repeat;
+
+}
+.father2{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/19843.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father3{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/19841.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father4{
+    float: left;
+    width: 100%;
+    height: 850px;
+    background-size: contain;
+    background-image: url(home/father/19842.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father5{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/19840.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father6{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1986.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father7{
+    float: left;
+    width: 100%;
+    height: 900px;
+    background-size: contain;
+    background-image: url(home/father/1986-1.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father8{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1986-2.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father9{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1986-3.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father10{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1987.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father11{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1987-1.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father12{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1987-2.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father13{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1987-3.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father14{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1991.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.father15{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size: contain;
+    background-image: url(home/father/1995.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+.close:hover{
+	transform: scale(2);
+
+}
+
+
+
+
+
+.family1{
+	float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1984.jpg);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.family2{
+	float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/19841.jpg);
+    background-repeat: no-repeat;
+}
+.family3{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1985.jpg);
+    background-repeat: no-repeat;
+}
+.family4{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/19851.jpg);
+    background-repeat: no-repeat;
+}
+.family5{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/19852.jpg);
+    background-repeat: no-repeat;
+}
+.family6{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1986.jpg);
+    background-repeat: no-repeat;
+}
+.family7{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1986-1.jpg);
+    background-repeat: no-repeat;
+}
+.family8{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1986-2.jpg);
+    background-repeat: no-repeat;
+}
+.family9{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1986-3.jpg);
+    background-repeat: no-repeat;
+}
+.family10{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1987.jpg);
+    background-repeat: no-repeat;
+}
+.family11{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1987-1.jpg);
+    background-repeat: no-repeat;
+}
+.family12{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1988.jpg);
+    background-repeat: no-repeat;
+}
+.family13{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1988-1.jpg);
+    background-repeat: no-repeat;
+}
+.family14{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1989.jpg);
+    background-repeat: no-repeat;
+}
+.family15{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1991.jpg);
+    background-repeat: no-repeat;
+}
+.family16{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/family/1992.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.object1{
+	float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/1984.jpg);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+   
+
+    
+}
+.object2{
+	float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/19841.jpg);
+    background-repeat: no-repeat;
+
+}
+.object3{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/1985.jpg);
+    background-repeat: no-repeat;
+   
+}
+.object4{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/1987.jpg);
+    background-repeat: no-repeat;
+   
+}
+.object5{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/1991.jpg);
+    background-repeat: no-repeat;
+   
+}
+.object6{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/1991-1.jpg);
+    background-repeat: no-repeat;
+   
+}
+.object7{
+    float: left;
+    width: 100%;
+    height: 585px;
+    background-size:contain;
+    background-image: url(home/object/1991-2.jpg);
+    background-repeat: no-repeat;
+   
+}
+.object8{
+    float: left;
+    width: 100%;
+    height: 900px;
+    background-size:contain;
+    background-image: url(home/object/1992.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+  </style>
+
+</head>
+
+<script type="text/javascript">
+        function toggleDialog(show){
+            var animationClass = show ? "slipUp" : "slipBottom";
+            var animation = function(){
+                var ele = document.getElementById("dialog-face");
+                ele.className = "dialog-face " + animationClass;
+                ele = document.getElementById("dialog");
+                ele.className = "dialog-root " + animationClass;
+                ele = document.getElementById("dialog-wrapper");
+                ele.className = "dialog-wrapper " + animationClass;
+            };
+
+            setTimeout(animation, 50);
+        }
+    </script>
+</head>
+
+<body>
+
+  	
+
+<div class="containter">
+		<div class="mother">
+			<div class="title1"><p class="juzhong">MOTHER</p></div>
+			<div class="mother1" title="nihao"></div>
+		<div class="text11"><p class="juzhong2"> 1985</p></div>
+        <div class="mother2" title="nidff"></div>
+        <div class="text11"><p class="juzhong2"> 1986</p></div>
+        <div class="mother3" title="nidff"></div>
+        <div class="text11"><p class="juzhong2"> 1987</p></div>
+        <div class="mother4"></div>
+        <div class="text11"><p class="juzhong2"> 1988</p></div>
+        <div class="mother5"></div>
+        <div class="text11"><p class="juzhong2"> 1989</p></div>
+        <div class="mother6"></div>
+        <div class="text11"><p class="juzhong2"> 1990</p></div>
+        <div class="mother7"></div>
+        <div class="text11"><p class="juzhong2"> 1991</p></div>
+        <div class="mother8"></div>
+        <div class="text11"><p class="juzhong2"> 1992</p></div>
+
+
+
+		</div>
+		<div class="father">
+			
+
+
+
+			<div class="title2"><p class="juzhong">FATHER</p></div>
+			   <div class="father1"></div>
+                    <div class="text11"><p class="juzhong2"> 1984</p></div>
+
+                    <div class="father2"></div>
+                    <div class="text11"><p class="juzhong2"> 1984</p></div>
+
+                    <div class="father3"></div>
+                    <div class="text11"><p class="juzhong2"> 1984</p></div>
+
+                    <div class="father4"></div>
+                    <div class="text11"><p class="juzhong2"> 1984</p></div>
+
+                    <div class="father5"></div>
+                    <div class="text11"><p class="juzhong2"> 1984</p></div>
+
+                    <div class="father6"></div>
+                    <div class="text11"><p class="juzhong2"> 1986</p></div>
+
+                    <div class="father7"></div>
+                    <div class="text11"><p class="juzhong2"> 1986</p></div>
+
+                    <div class="father8"></div>
+                    <div class="text11"><p class="juzhong2"> 1986</p></div>
+
+                     <div class="father9"></div>
+                    <div class="text11"><p class="juzhong2"> 1986</p></div>
+
+                    <div class="father10"></div>
+                    <div class="text11"><p class="juzhong2"> 1987</p></div>
+                    <div class="father11"></div>
+                    <div class="text11"><p class="juzhong2"> 1987</p></div>
+                    <div class="father12"></div>
+                    <div class="text11"><p class="juzhong2"> 1987</p></div>
+                    <div class="father13"></div>
+                    <div class="text11"><p class="juzhong2"> 1987</p></div>
+                    <div class="father14"></div>
+                    <div class="text11"><p class="juzhong2"> 1991</p></div>
+                    <div class="father15"></div>
+                    <div class="text11"><p class="juzhong2"> 1995</p></div>
+
+
+                    
+
+
+		</div>
+
+			
+		<div class="family">
+			
+
+
+			<div class="title3"><p class="juzhong">FAMILY</p></div>
+			<div class="family1"></div>
+			<div class="text11"><p class="juzhong2">1984</p></div>
+			<div class="family2"></div>
+            <div class="text11"><p class="juzhong2">1984</p></div>
+            <div class="family3"></div>
+            <div class="text11"><p class="juzhong2">1985</p></div>
+            <div class="family4"></div>
+            <div class="text11"><p class="juzhong2">1985</p></div>
+            <div class="family5"></div>
+            <div class="text11"><p class="juzhong2">1985</p></div>
+            <div class="family6"></div>
+            <div class="text11"><p class="juzhong2">1986</p></div>
+            <div class="family7"></div>
+            <div class="text11"><p class="juzhong2">1986</p></div>
+            <div class="family8"></div>
+            <div class="text11"><p class="juzhong2">1986</p></div>
+            <div class="family9"></div>
+            <div class="text11"><p class="juzhong2">1986</p></div>
+            <div class="family10"></div>
+            <div class="text11"><p class="juzhong2">1987</p></div>
+            <div class="family11"></div>
+            <div class="text11"><p class="juzhong2">1987</p></div>
+            <div class="family12"></div>
+            <div class="text11"><p class="juzhong2">1988</p></div>
+            <div class="family13"></div>
+            <div class="text11"><p class="juzhong2">1988</p></div>
+            <div class="family14"></div>
+            <div class="text11"><p class="juzhong2">1989</p></div>
+            <div class="family15"></div>
+            <div class="text11"><p class="juzhong2">1991</p></div>
+            <div class="family16"></div>
+            <div class="text11"><p class="juzhong2">1992</p></div>
+            
+
+		</div>
+
+
+		<div class="object">
+			<div class="title4"><p class="juzhong">OBJECT</p></div>
+			<div class="object1"></div>
+			<div class="text11"><p class="juzhong2">1984</p></div>
+			<div class="object2"></div>
+            <div class="text11"><p class="juzhong2">1984</p></div>
+            <div class="object3"></div>
+            <div class="text11"><p class="juzhong2">1985</p></div>
+            <div class="object4"></div>
+            <div class="text11"><p class="juzhong2">1987</p></div>
+            <div class="object5"></div>
+            <div class="text11"><p class="juzhong2">1991</p></div>
+            <div class="object6"></div>
+            <div class="text11"><p class="juzhong2">1991</p></div>
+            <div class="object7"></div>
+            <div class="text11"><p class="juzhong2">1992</p></div>
+            <div class="object8"></div>
+            <div class="text11"><p class="juzhong2">1992</p></div>
+
+		</div>
+</div>
+
+
+
+            <div class="nav">
+
+            <div class="fixed layout-root" id="bb2">
+        <div class="layout-content">
+            <button id="button1" onclick="toggleDialog(true)"><p class="open"></p></button>
+        </div>
+        
+    </div>
+    <div id="dialog-face" class="none">
+    </div>
+    <div id="dialog" class="none">
+        <div id="dialog-wrapper">
+            <div class="dialog-header">
+                <span>
+                <p class="b2">PICTURE FROM HOME (1983&ndash;92)</p></span>
+            </div>
+            <div class="dialog-content">
+            <p class="b3">
+                <strong>LARRY SULTAN</strong> Using his mother and father as subject matter,
+    Sultan created Pictures from Home over the course of nearly a decade. The series documents 
+    Sultan's parents in their home in the San Fernando Valley and in their retirement community 
+    in Palm Desert, California. Investigating personal identity, family relationships, and the 
+    ideas surrounding home, these photographs reflect the artist's fascination with storytelling
+    and the narratives that are communicated through text, image and time.</p>
+            </div>
+            <div class="dialog-footer">
+                <button id="button2" onclick="toggleDialog(false)"><p class="close">CLOSE</p></button><div class="sfmoma">
+                <a href="https://www.sfmoma.org/exhibition/larry-sultan-here-and-home/"><img src="pic/sfmoma10.jpg" class="moma"></a></div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+		
+</div>
+
+
+</body>
+</html>
